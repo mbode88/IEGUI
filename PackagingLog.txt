@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="/Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution" />
+  <mkdir dir="/Users/marcbode/Documents/MATLAB/IEGUI/for_testing" />
+  <mkdir dir="/Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution_files_only" />
+</ant>
+mcc -o IEGUI -W WinMain:IEGUI -T link:exe -d /Users/marcbode/Documents/MATLAB/IEGUI/for_testing -v /Users/marcbode/Documents/MATLAB/IEGUI.m 
+Compiler version: 5.2 (R2014b)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "/Users/marcbode/Documents/MATLAB" to Compiler path
+instance.] 
+Parsing file "/Users/marcbode/Documents/MATLAB/IEGUI.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "/Users/marcbode/Documents/MATLAB/IEGUI/for_testing/readme.txt".
+Generating file "/Users/marcbode/Documents/MATLAB/IEGUI/for_testing/run_IEGUI.sh".
+Packaging...
+Adding custom icon /Applications/MATLAB_R2014b.app/toolbox/compiler/Resources/default_icon.icns to /Users/marcbode/Documents/MATLAB/IEGUI/for_testing/IEGUI.app.
+Creating the bundle...
+Copying /Applications/MATLAB_R2014b.app/toolbox/compiler/maci64/setup.app to /Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution/MyAppInstaller_web.app.
+Copying /Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution/bundle.zip to /Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution/MyAppInstaller_web.app/Contents/Resources/bundle.zip.
+Copying /Applications/MATLAB_R2014b.app/toolbox/compiler/Resources/default_splash.png to /Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution/MyAppInstaller_web.app/Contents/Resources/splash.png.
+Copying /Applications/MATLAB_R2014b.app/toolbox/compiler/Resources/default_icon.icns to /Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution/MyAppInstaller_web.app/Contents/Resources/installer.icns.
+Web based installer created at /Users/marcbode/Documents/MATLAB/IEGUI/for_redistribution/MyAppInstaller_web.app.
+Packaging complete.
